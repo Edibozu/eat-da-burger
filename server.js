@@ -15,7 +15,13 @@ app.set("view engine", "handlebars");
 // VIEWS ROUTES
 app.get("/", (req, res) => {
   res.render("index");
+  connection.query("SELECT * FROM burger", (err, data) => {
+    console.table(data);
+  })
 });
+
+
+// API ROUTES
 
 app.get("/api/config", (req, res) => {
   res.json({
