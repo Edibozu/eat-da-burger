@@ -25,18 +25,18 @@ $(function() {
       // Make sure to preventDefault on a submit event.
       event.preventDefault();
   
-      var newCat = {
-        name: $("#ca").val().trim(),
-        sleepy: $("[name=sleepy]:checked").val().trim()
+      var newBurger = {
+        name: $("#newBurger").val().trim(),
+        devoured: 0
       };
   
       // Send the POST request.
       $.ajax("/api/cats", {
         type: "POST",
-        data: newCat
+        data: newBurger
       }).then(
         function() {
-          console.log("created new cat");
+          console.log("Added New Burger");
           // Reload the page to get the updated list
           location.reload();
         }
