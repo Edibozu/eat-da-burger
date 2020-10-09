@@ -4,6 +4,8 @@ const connection = require("./config/connection");
 
 const app = express();
 
+app.use(express.static("public"));
+
 const PORT = process.env.PORT || 8080;
 
 app.use(express.urlencoded({ extended: true }));
@@ -11,6 +13,10 @@ app.use(express.json());
 
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
+
+const routes = require("./controllers/burgersController.js");
+
+app.use(routs);
 
 // VIEWS ROUTES
 app.get("/", (req, res) => {
