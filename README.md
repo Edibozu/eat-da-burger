@@ -2,7 +2,7 @@
 
 ## Description
 
-Eat-da-Burger is a culmination of the skills we have leanred in the last few weeks, which include MySQL, Express and Handlebars. While simple in it's design, this applications requires highly-detailed code, across several file types. The user will be able to add a new burger from a submit from, and once added, they can "devour" it.
+Eat-da-Burger is a culmination of the skills we have leanred in the last few weeks, which include MySQL, Express and Handlebars. While simple in it's design, this applications requires highly-detailed code, across several file types. The user will be able to add a new burger from a submit from, and once added, they can "devour" it. WHen this happens, the burger will go from the left side of the screen to the right. When ann burgers get devoured, the user can always add more with the submit form.
 
  ## Installation
 
@@ -12,13 +12,13 @@ The image below shows the startup of the app.
 <br/><br/>
 ![Application Screenshot](./public/assets/images/sc1.png)
 <br/><br/><br/>
-This shot shows a table on how the information is organized.
+This shot shows when some of the burgers get devoured, and change from left to right.
 <br/><br/>
-![Application Screenshot](./Assets/sc2.png)
+![Application Screenshot](.public/assets/images/sc2.png)
 <br/><br/><br/>
-This shot shows the the code incorporates both MySQL queries along with Inquirer prompts.
+Here we see how burgers can be added, while they await to be devoured
 <br/><br/>
-![Application Screenshot](./Assets/sc3.png)
+![Application Screenshot](.public/assets/images/sc3.png)
 <br/><br/>
 
 ## Questions
@@ -27,7 +27,9 @@ For any questions, contact me on any of the following links:
 
 Email: edibozu@gmail.com
 
-GitHub Repo: https://github.com/Edibozu/mysql-employee-tracker
+Heroku: https://eat-da-burger-ep.herokuapp.com/
+
+GitHub Repo: https://github.com/Edibozu/eat-da-burger
 
 LinkedIn: https://www.linkedin.com/in/eduardo-pineda-5595431b6/
 
