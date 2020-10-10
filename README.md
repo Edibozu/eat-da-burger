@@ -10,7 +10,7 @@ Eat-da-Burger is a culmination of the skills we have leanred in the last few wee
 <br/><br/>
 The image below shows the startup of the app.
 <br/><br/>
-![Application Screenshot](./Assets/sc1.png)
+![Application Screenshot](./public/assets/images/sc1.png)
 <br/><br/><br/>
 This shot shows a table on how the information is organized.
 <br/><br/>
