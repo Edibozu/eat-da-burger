@@ -18,22 +18,22 @@ const routes = require("./controllers/burgersController.js");
 
 app.use(routes);
 
-// VIEWS ROUTES
-app.get("/", (req, res) => {
-  res.render("index");
-  connection.query("SELECT * FROM burger", (err, data) => {
-    console.table(data);
-  })
-});
+// // VIEWS ROUTES
+// app.get("/", (req, res) => {
+//   res.render("index");
+//   connection.query("SELECT * FROM burger_name", (err, data) => {
+//     console.table(data);
+//   })
+// });
 
 
-// API ROUTES
+// // API ROUTES
 
-app.get("/api/config", (req, res) => {
-  res.json({
-    success: true,
-  });
-});
+// app.get("/api/config", (req, res) => {
+//   res.json({
+//     success: true,
+//   });
+// });
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);

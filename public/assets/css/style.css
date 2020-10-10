@@ -1,20 +1,19 @@
+body {
+  background-image: url("../images/orange.jpg");
+}
+
 li {
-    padding: 5px;
-    margin: 5px;
-    background: #faebd7;
-  }
-  
-  .label {
-    font-weight: bold;
-  }
-  
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
-  }
-  
-  .form-group {
-    margin-bottom: 5px;
-  }
-  
+  font-size: 1.5em !important;
+  background-color: lightgray;
+}
+
+
+.create-form {
+  padding: 5px;
+  margin: 5px;
+  background: none;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
