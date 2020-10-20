@@ -14,11 +14,11 @@ The image below shows the startup of the app.
 <br/><br/><br/>
 This shot shows when some of the burgers get devoured, and change from left to right.
 <br/><br/>
-![Application Screenshot](.public/assets/images/sc2.png)
+![Application Screenshot](./public/assets/images/sc2.png)
 <br/><br/><br/>
 Here we see how burgers can be added, while they await to be devoured
 <br/><br/>
-![Application Screenshot](.public/assets/images/sc3.png)
+![Application Screenshot](./public/assets/images/sc3.png)
 <br/><br/>
 
 ## Questions
